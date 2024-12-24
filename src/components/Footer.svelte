@@ -2,7 +2,7 @@
     import homeActive from '../assets/home_active.svg'
     import messages from '../assets/messages.svg'
     import help from '../assets/help.svg'
-    import news from '../assets/news.svg'
+    // import news from '../assets/news.svg'
 </script>
 
 <style>
