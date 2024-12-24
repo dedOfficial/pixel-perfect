@@ -8,10 +8,12 @@
 <style>
     .footer-nav {
         line-height: 21px;
+        font-weight: 400;
     }
     .active {
         & span {
             color: #24FFBC;
+            font-weight: 600;
         }
     }
 </style>

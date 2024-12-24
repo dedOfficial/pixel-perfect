@@ -9,6 +9,7 @@
         background: #1B1E22; 
         padding: 10px 12px;
         line-height: 21px;
+        font-size: 14px;
 
         &::placeholder {
             color: #f5f5f5;
@@ -45,7 +46,7 @@
             <input class="custom-input rounded-lg font-semibold w-full" placeholder="Search for help" />
             <img class="absolute top-1/2 right-3 w-4 h-4 -translate-y-1/2" src="{search}" alt="search">
         </div>
-        <!-- TODO: icon, style placeholded, list -->
+
         <ul class="list">
             <li>
                 <span>In-game bonuses and free spins</span>
