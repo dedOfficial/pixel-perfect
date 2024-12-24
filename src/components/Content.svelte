@@ -29,10 +29,24 @@
             border-radius: 8px;
         }   
     }
+
+    .send-message {
+        border-color: #24FFBC; 
+        border-radius: 10px; 
+        padding: 15.34px 19px; 
+        background: #1B1E22; 
+        box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06), 0px 0px 0px 1px rgba(0, 0, 0, 0.08);
+    }
+
+    .search {
+        background: #0b0b0f; 
+        border-radius: 10px;
+        box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06), 0px 0px 0px 1px rgba(0, 0, 0, 0.08);
+    }
 </style>
 
 <main class="px-4 pt-4 z-10 flex flex-col gap-3">
-    <section class="container mx-auto flex justify-between items-center py-4 px-5 border-solid border" style="border-color: #24FFBC; border-radius: 10px; padding: 15.34px 19px;">
+    <section class="send-message container mx-auto flex justify-between items-center py-4 px-5 border-solid border">
         <div>
             <h3 class="font-semibold text-sm" style="color: #f5f5f5; line-height: 21px;">Send us a message</h3>
             <p class="text-sm font-normal" style="color: #83838d; line-height: 21px;">We typically reply within a day</p>
@@ -41,7 +55,7 @@
         <img src="{send}" alt="send" />
     </section>
 
-    <section class="p-2 flex flex-col gap-2" style="background: #0b0b0f; border-radius: 10px;">
+    <section class="search p-2 flex flex-col gap-2">
         <div class="relative w-full">
             <input class="custom-input rounded-lg font-semibold w-full" placeholder="Search for help" />
             <img class="absolute top-1/2 right-3 w-4 h-4 -translate-y-1/2" src="{search}" alt="search">
