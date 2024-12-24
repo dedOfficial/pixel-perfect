@@ -10,7 +10,7 @@ Install yarn to global dependencies if it's not exists
 npm i -g yarn
 ```
 
-## Developing
+## Developing/Running
 
 Once you've created a project and installed dependencies with `yarn`, start a development server:
 
